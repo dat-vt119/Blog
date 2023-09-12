@@ -1,0 +1,80 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css");
+
+.event {
+  max-width: 80%;
+  margin: 2rem auto;
+  /* display: flex;
+  flex-direction: column; */
+  /* text-align: center; */
+  /* background-color: ; */
+}
+
+.imageActor {
+  width: 4.8rem;
+  border-radius: 50%;
+}
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.actions a,
+.actions button {
+  padding: 0.25rem 2rem;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+  background-color: var(--color-gray-100);
+  color: #000;
+  border-radius: 10rem;
+}
+.actions a:hover {
+  background-color: var(--color-green-100);
+}
+.actions button {
+  background-color: transparent;
+  border: none;
+  /* color: var(--color-primary-800); */
+}
+.actions button:hover {
+  background-color: rgb(244, 152, 152);
+}
+.info {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.actor .name {
+  color: #000;
+  font-weight: 600;
+}
+.actor .time {
+  font-size: 1.4rem;
+}
+.title {
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 2rem 0;
+}
+.event i {
+  position: absolute;
+  padding-top: 0.8rem;
+  background-color: var(--color-gray-100);
+  border-radius: 50%;
+  width: 3.6rem;
+  height: 3.6rem;
+  text-align: center;
+  right: 4.2rem;
+  /* margin */
+}
+.event i:hover {
+  cursor: pointer;
+  background-color: var(--color-gray-200);
+}
+.annouce {
+  text-align: center;
+  padding-top: 2rem;
+}

@@ -1,0 +1,61 @@
+.form {
+  max-width: 110rem;
+  margin: 2rem auto;
+}
+h1 {
+  font-size: 3.2rem;
+}
+.form label,
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+  resize: vertical;
+}
+
+.form input {
+  font: inherit;
+  padding: 0.25rem;
+  border: solid 2px var(--color-gray-100);
+  border-radius: 8px;
+  margin-bottom: 2.4rem;
+}
+.form input:focus {
+  outline: none;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.actions button {
+  border-radius: 10rem;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  background-color: var(--color-gray-200);
+  color: var(--color-gray-800);
+  border: none;
+  margin-top: 2.4rem;
+}
+
+.actions button[type="button"] {
+  background-color: transparent;
+  color: var(--color-gray-300);
+}
+
+.actions button:hover {
+  background-color: var(--color-green-100);
+}
+
+.actions button[type="button"]:hover {
+  background-color: var(--color-gray-200);
+  color: #fff;
+}
+.title {
+  /* display: f; */
+  text-align: center;
+  font-size: 2rem;
+}
